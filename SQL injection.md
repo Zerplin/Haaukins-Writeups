@@ -1,5 +1,5 @@
 ## SQL Injection
-After solving "Network sniffing" and "Web server login" we login at netsec-forum.dk using the credentials 
+After solving "Network sniffing" and "Web server login" we login at netsec-forum.dk using the credentials.
 
 ```Username = carsten@netsec.aau.dk and Password = mormor1932```
 
@@ -7,6 +7,7 @@ Afterwards we are directed to an "internal forum" with a message board we can in
 
 
 <img src="https://i.imgur.com/juNXHNd.png" width=50% height=50%>
+
 After poking a bit around in the input field, we discover the message board is vulnerable to SQL injection.
 
 <img src="https://i.imgur.com/fgRnfqX.png" width=50% height=50%>
