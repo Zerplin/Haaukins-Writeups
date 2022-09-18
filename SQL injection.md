@@ -3,7 +3,7 @@ After solving "Network sniffing" and "Web server login" we login at netsec-forum
 
 ```Username = carsten@netsec.aau.dk and Password = mormor1932```
 
-Afterwards we are directed to an "internal forum" with a message board we can interact with. 
+Afterwards, we are directed to an "internal forum" with a message board we can interact with. 
 
 
 <img src="https://i.imgur.com/juNXHNd.png" width=50% height=50%>
@@ -20,7 +20,7 @@ Thankfully, the webserver outputs a detailed error message, allow us to do this 
 
 <img src="https://user-images.githubusercontent.com/43621940/190901013-270ca32b-eb5e-4a44-85cd-0cb34e27cbdd.png" width=50% height=50%>
 
-After a few tries we discover the table "users" and column "password".
+After a few tries we discover the table "users" and column "password" exists.
 In order to actually read the content visually, we use the concatenation operator `||` 
 to concat the result from the SELECT query with the string being posted to the message board.
 
